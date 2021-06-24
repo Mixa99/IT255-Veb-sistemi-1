@@ -1,0 +1,38 @@
+<div>
+    <div class="nav-bar">
+        <nav-bar></nav-bar>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div id="contact-row" class="row justify-content-center align-items-center">
+                <div id="contact-column" class="col-md-6">
+                    <div id="contact-box" class="col-md-12">
+                        <form id="form-contact">
+                            <h1>Budimo u kontaktu</h1>
+                            <label for="inputName" class="sr-only">Unesite ime</label>
+                            <input type="name" id="inputName" name="name" ngModel class="form-control myField bg-light" placeholder="Vaše ime" required autofocus>
+                            <label for="inputEmail" class="sr-only">Email adresa</label>
+                            <input type="email" id="inputEmail" name="email" ngModel class="form-control myField bg-light" placeholder="Email adresa" required autofocus>
+                            <label for="inputMessage" class="sr-only">Poruka</label>
+                            <textarea name="message" id="inputMessage" ngModel class="form-control myField bg-light" placeholder="Vaša poruka" cols="30" rows="5"></textarea>
+                            <button class="btn btn-primary myContactButton">Pošalji</button>
+                        </form>
+                    </div>
+                </div>
+                <div id="contact-column" class="col-md-6">
+                    <div id="contact-box" class="col-md-12 bg-light">
+                        <h2 style="padding-top: 30px;">Kontakt informacije</h2>
+                        <p style="padding-top: 15px; font-size: large;">Kancelarija: +381 37 34 19 040<br> Dizajn: +381 69 34 19 040<br> Prodaja: +381 63 610 722<br> Proizvodnja: +381 63 699 037<br> Email:
+                            <a href="mailto:dmstamparija@gmail.com">dmstamparija@gmail.com</a><br> Adresa: Miletine bune 13, 37000 Kruševac
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="myFooter">
+        <app-footer></app-footer>
+    </div>
+</div>

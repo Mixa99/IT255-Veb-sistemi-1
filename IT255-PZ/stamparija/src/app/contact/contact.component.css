@@ -1,0 +1,48 @@
+#contact .container #contact-row #contact-column #contact-box {
+    max-width: 600px;
+    height: 290px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.nav-bar {
+    margin-top: -100px;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.myText {
+    margin-top: 10px;
+}
+
+.myText h1 {
+    margin-top: 10px;
+}
+
+.myText p {
+    margin-top: 20px;
+}
+
+.myFooter {
+    padding-top: 350px;
+}
+
+.myContactBtn {
+    margin-top: 10px;
+    padding: 0.3em;
+}
+
+input {
+    margin-top: 5px;
+}
+
+textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
